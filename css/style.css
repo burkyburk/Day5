@@ -3,30 +3,47 @@ html {
 
 .header {
   height: 11.875em;
-  background-color: darkblue; }
+  background: url(http://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/GoraBeluha.jpg/640px-GoraBeluha.jpg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 51, 102, 0.6); }
+
+.about {
+  font-family: asap;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 1em;
+  word-spacing: 1em; }
+
+.logo {
+  font-size: 4.5em;
+  padding-left: 2.75em; }
 
 .headertext {
-  font-size: 1.938em;
+  font-size: 2.5em;
   color: white;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 4em; }
+  padding-top: .3em;
+  font-family: asap;
+  word-spacing: 3; }
 
 .headertext2 {
   color: black;
-  font-size: 0.625em;
+  font-size: 0.95em;
   text-align: center;
-  padding-top: 0.5em; }
+  padding-top: 0.4em; }
 
 .content1 {
   background-color: white;
-  margin: 3.875em 1.813em 6.750em 1.813em; }
+  margin: 1.875em 1.813em 0em 1.813em; }
 
 .headline {
   text-align: left;
-  color: darkblue;
-  font-size: 3.250em;
-  text-transform: uppercase; }
+  color: #003366;
+  font-size: 3.75em;
+  text-transform: uppercase;
+  padding-top: .5em; }
 
 .datestamp {
   color: grey;
@@ -52,9 +69,9 @@ p {
   color: navy; }
 
 .content2 {
-  height: 51em;
-  background-color: pink;
-  margin: 5.125em 1.813em 6.375em 1.813em; }
+  background-color: white;
+  margin: 3.125em 1.813em 6.375em 1.813em;
+  border-top: .15em solid lightgrey; }
 
 .para3 {
   margin-top: 2.5em; }
@@ -63,8 +80,9 @@ p {
   margin-top: 2.5em; }
 
 .footer {
-  height: 14.250em;
-  background-color: darkblue; }
+  height: 19.875em;
+  background-color: #003366;
+  margin-top: 6.375em; }
 
 .linkbox {
   width: 2.875em;
@@ -76,16 +94,19 @@ p {
 .dolphpic {
   height: 7.375em;
   width: 7.375em;
-  margin-left: 8.6em;
+  margin-left: 8.8em;
   background-color: blue;
   margin-top: 6.5em;
-  border-radius: 100%; }
+  border-radius: 100%;
+  background: url(http://www.imms.org/images/dolphin_presentation/dolphin1.jpg);
+  background-size: cover; }
 
 .annie {
   text-align: center;
   margin-top: 1em;
-  color: blue;
-  font-size: 1.25em; }
+  color: rgba(0, 51, 102, 0.6);
+  font-size: 1.25em;
+  font-family: asap; }
 
 .smedia {
   text-align: center;
@@ -97,11 +118,74 @@ p {
   height: 19.5em;
   background-color: blue;
   margin-top: 6.125em;
-  margin-bottom: 6.125em;
-  display: block; }
+  display: block;
+  background: url(http://www.kayakreview.org/wp-content/uploads/2010/02/sitontopsonbeach.jpg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 51, 102, 0.6); }
 
-.content2 {
-  margin-top: 6.125em;
-  border-top: .15em solid lightgrey; }
+h4 {
+  text-align: right;
+  color: grey;
+  font-size: 1.125em;
+  padding-top: .5em;
+  font-family: asap; }
+
+.content2header {
+  font-size: 2.375em;
+  color: #003366;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 1em; }
+
+.picbox1 {
+  height: 17.375em;
+  margin-top: 1.25em;
+  background: url(http://defenders.org/sites/default/files/styles/large/public/dolphin-kristian-sekulic-isp.jpg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 51, 102, 0.6); }
+
+.picbox2 {
+  height: 17.375em;
+  margin-top: 1.25em;
+  background: url(http://kayakdave.com/wp-content/uploads/2013/02/kayaks.jpg);
+  box-shadow: inset 0 0 0 1000px rgba(0, 51, 102, 0.6);
+  background-size: cover; }
+
+.picbox3 {
+  height: 17.375em;
+  margin-top: 1.25em;
+  background: url(http://www.wetcanvas.com/Community/images/10-Mar-2011/180030-bulldogsurf2.jpg);
+  box-shadow: inset 0 0 0 1000px rgba(0, 51, 102, 0.6);
+  background-size: cover; }
+
+.navitems {
+  padding-top: 2.7em;
+  text-align: center;
+  font-size: 1.2em;
+  color: grey;
+  word-spacing: .250em;
+  font-family: asap; }
+
+.navitems2 {
+  padding-top: 1.5em;
+  text-align: center;
+  font-size: 1.2em;
+  color: grey;
+  word-spacing: .250;
+  font-family: asap; }
+
+.tiylogo {
+  height: 5em;
+  width: 5em;
+  background: url(http://www.medgadget.com/wp-content/uploads/2013/05/Iron-Yard.png);
+  background-size: cover;
+  margin-left: 11.75em;
+  margin-top: 1em; }
+
+.copyright {
+  color: grey;
+  text-align: center;
+  padding-top: 1em;
+  font-family: asap; }
 
 /*# sourceMappingURL=style.css.map */
