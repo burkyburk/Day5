@@ -1,0 +1,110 @@
+html {
+font-family:oswald;
+}
+.header {
+	height:11.875em;
+	background-color:darkblue;
+}
+.headertext {
+	font-size:1.938em;
+	color: white;
+	text-transform:uppercase;
+	text-align:center;
+	padding-top:4em;
+	
+}
+.headertext2 {
+	color:black;
+	font-size:0.625em;
+	text-align:center;
+	padding-top:0.5em;
+}
+.content1 {
+	background-color:white;
+	margin:3.875em 1.813em 6.750em 1.813em;
+}
+.headline {
+	text-align:left;
+	color:darkblue;
+	font-size:3.250em;
+	text-transform:uppercase;	
+}
+.datestamp {
+	color:grey;
+	font-size:0.938em;
+	margin-top:.75em;
+}
+p {
+	font-size:0.813em;
+	line-height:1.5em;
+}
+.para1 {
+	margin-top:2.5em;
+}
+.para2 {
+	margin-top:2.5em;
+}
+.quote {
+	border-left:.125em solid grey;
+	margin-top:1em;
+	font-size:1.75em;
+	padding-left:0.5em;
+	margin-bottom:1em;
+	color:navy;
+}
+.content2	{
+	height:51em;
+	background-color:pink;
+	margin:5.125em 1.813em 6.375em 1.813em;
+}
+.para3 {
+	margin-top:2.5em;
+}
+.para4 {
+	margin-top:2.5em;
+}
+.footer {
+	height:14.250em;
+	background-color:darkblue;
+}
+.linkbox {
+	width:2.875em;
+	height:2.875em;
+	background-color:grey;
+	display:inline-block;
+	margin-top:.5em;
+	}
+.dolphpic {
+	height:7.375em;
+	width:7.375em;
+	margin-left:8.6em;
+	background-color:blue;
+	margin-top:6.5em;
+	border-radius:100%;
+
+}
+.annie {
+	text-align:center;
+	margin-top:1em;
+	color:blue;
+	font-size:1.25em;
+}
+.smedia {
+	text-align:center;
+	word-spacing:1.250em;
+	margin-top:.5em;
+	color:grey;
+}
+.boatpic {
+	height:19.5em;
+	background-color:blue;
+	margin-top:6.125em;
+	margin-bottom:6.125em;
+	display:block;
+	// border-bottom:.15em solid lightgrey;
+}
+.content2 {
+	margin-top:6.125em;
+	border-top:.15em solid lightgrey;
+}
+
