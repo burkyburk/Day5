@@ -16,8 +16,8 @@ html {
   word-spacing: 1em; }
 
 .logo {
-  font-size: 4.5em;
-  padding-left: 2.75em; }
+  font-size: 5em;
+  padding-left: 45%; }
 
 .headertext {
   font-size: 2.5em;
@@ -92,18 +92,16 @@ p {
   margin-top: .5em; }
 
 .dolphpic {
-  height: 7.375em;
-  width: 7.375em;
-  margin-left: 8.8em;
+  height: 10em;
+  width: 10em;
   background-color: blue;
-  margin-top: 6.5em;
+  margin: 5em auto;
   border-radius: 100%;
   background: url(http://www.imms.org/images/dolphin_presentation/dolphin1.jpg);
   background-size: cover; }
 
 .annie {
   text-align: center;
-  margin-top: 1em;
   color: rgba(0, 51, 102, 0.6);
   font-size: 1.25em;
   font-family: asap; }
@@ -111,13 +109,14 @@ p {
 .smedia {
   text-align: center;
   word-spacing: 1.250em;
-  margin-top: .5em;
+  margin-top: .5em auto;
+  margin-bottom: 2em;
   color: grey; }
 
 .boatpic {
-  height: 19.5em;
+  height: 19em;
   background-color: blue;
-  margin-top: 6.125em;
+  margin-top: 6em auto;
   display: block;
   background: url(http://www.kayakreview.org/wp-content/uploads/2010/02/sitontopsonbeach.jpg);
   background-size: cover;
@@ -158,6 +157,14 @@ h4 {
   box-shadow: inset 0 0 0 1000px rgba(0, 51, 102, 0.6);
   background-size: cover; }
 
+.picbox4 {
+  height: 17.375em;
+  margin-top: 1.25em;
+  background: url(http://www.wetcanvas.com/Community/images/10-Mar-2011/180030-bulldogsurf2.jpg);
+  box-shadow: inset 0 0 0 1000px rgba(0, 51, 102, 0.6);
+  background-size: cover;
+  display: none; }
+
 .navitems {
   padding-top: 2.7em;
   text-align: center;
@@ -179,13 +186,104 @@ h4 {
   width: 5em;
   background: url(http://www.medgadget.com/wp-content/uploads/2013/05/Iron-Yard.png);
   background-size: cover;
-  margin-left: 11.75em;
-  margin-top: 1em; }
+  margin: 1em auto; }
 
 .copyright {
   color: grey;
   text-align: center;
   padding-top: 1em;
   font-family: asap; }
+
+@media (min-width: 768px) {
+  .header {
+    height: 20em; }
+
+  .about {
+    text-align: right;
+    padding-right: 2em; }
+
+  .logo {
+    padding-left: 1.5em;
+    position: relative;
+    bottom: .9em;
+    font-size: 2.5em; }
+
+  .headertext {
+    font-size: 4em; }
+
+  .leftcontent {
+    margin-left: 2em;
+    margin-right: 2em;
+    float: left;
+    width: 18em; }
+
+  .rightcontent {
+    width: 18em;
+    float: right;
+    margin-right: 2em; }
+
+  .dolphpic {
+    height: 10em;
+    width: 10em;
+    background-color: blue;
+    margin: 5em auto;
+    border-radius: 100%;
+    background: url(https://media.licdn.com/mpr/mpr/shrink_200_200/p/7/005/097/1ce/32b3466.jpg);
+    background-size: cover; }
+
+  .content2 {
+    clear: both;
+    margin: 0 auto; }
+
+  .picbox1 {
+    display: inline-block;
+    width: 25%; }
+
+  .picbox2 {
+    display: inline-block;
+    float: left;
+    width: 25%; }
+
+  .picbox3 {
+    display: inline-block;
+    float: left;
+    width: 25%; }
+
+  .picbox4 {
+    display: inline-block;
+    float: left;
+    visibility: visible;
+    width: 25%; }
+
+  .footer {
+    clear: both;
+    margin: 0 auto;
+    height: 5em;
+    display: block;
+    position: relative; }
+
+  .navitems {
+    font-size: .6em;
+    text-align: right;
+    display: inline-block;
+    margin-left: 50em;
+    padding-top: 4em; }
+
+  .navitems2 {
+    font-size: .6em;
+    text-align: right;
+    display: inline-block; }
+
+  .tiylogo {
+    margin-left: 4em;
+    margin-bottom: 0em;
+    float: left;
+    position: absolute;
+    bottom: .1em; }
+
+  .copyright {
+    font-size: .6em;
+    display: inline-block;
+    padding-left: 15em; } }
 
 /*# sourceMappingURL=style.css.map */
